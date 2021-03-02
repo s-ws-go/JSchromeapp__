@@ -1,2 +1,2 @@
-# jschromeapp__
- todolist with javascript
+# JSchromeapp__
+ todolist with JS
