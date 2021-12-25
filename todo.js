@@ -32,7 +32,8 @@ function paintToDo(text) {
   const delBtn = document.createElement('button');
   const span = document.createElement('span');
   const newId = toDos.length + 1;
-  delBtn.innerText = 'X';
+  delBtn.innerText = '❌';
+  delBtn.classList.add('todoBtn');
   delBtn.addEventListener('click', deleteToDO);
   span.innerText = text;
   li.appendChild(delBtn); //li 안에 span하고 버튼을 넣음
